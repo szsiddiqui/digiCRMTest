@@ -53,13 +53,13 @@ public class LoginPageTest extends TestBase{
 		
 	}
 	
-	@Test(priority=3)
-	public void PasswordResetLinkTest()
-	{
-		passwordResetPage=loginPage.gotoPasswordReset();
-		String pageTitle=passwordResetPage.getPasswordResetPageTitle();
-		Assert.assertEquals(pageTitle, "Cogmento CRM");
-	}
+	//@Test(priority=3)
+	//public void PasswordResetLinkTest()
+	//{
+	//	passwordResetPage=loginPage.gotoPasswordReset();
+		//String pageTitle=passwordResetPage.getPasswordResetPageTitle();
+		//Assert.assertEquals(pageTitle, "Cogmento CRM");
+	//}
 	
 	@AfterMethod
 	public void tearDown()

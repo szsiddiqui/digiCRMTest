@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="com.digiCRMTest.autoqa.testcases.PasswordResetPageTest">
+        <methods>
+          <include name="resetPasswordTest"/>
+          <include name="SetUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.digiCRMTest.autoqa.testcases.PasswordResetPageTest -->
+      <class name="com.digiCRMTest.autoqa.testcases.ContactsPageTest">
+        <methods>
+          <include name="contactsPageTitleTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.digiCRMTest.autoqa.testcases.ContactsPageTest -->
+      <class name="com.digiCRMTest.autoqa.testcases.UserLandingPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="dealLinkTest"/>
+          <include name="ContactsLinkTest"/>
+          <include name="userLandingPageTitleTest"/>
+          <include name="userNameTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.digiCRMTest.autoqa.testcases.UserLandingPageTest -->
+      <class name="com.digiCRMTest.autoqa.testcases.HomePageTest">
+        <methods>
+          <include name="LoginButtonTest"/>
+          <include name="homePageTitleTest"/>
+          <include name="tearDown"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- com.digiCRMTest.autoqa.testcases.HomePageTest -->
+      <class name="com.digiCRMTest.autoqa.testcases.LoginPageTest">
+        <methods>
+          <include name="loginPageTitleTest"/>
+          <include name="setUp"/>
+          <include name="LoginTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.digiCRMTest.autoqa.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

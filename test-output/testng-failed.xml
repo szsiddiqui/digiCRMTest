@@ -3,13 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.digiCRMTest.autoqa.testcases.ContactsPageTest">
+      <class name="com.digiCRMTest.autoqa.testcases.LoginPageTest">
         <methods>
-          <include name="createNewContactTest"/>
-          <include name="tearDown"/>
+          <include name="loginPageTitleTest"/>
           <include name="setUp"/>
+          <include name="LoginTest"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.digiCRMTest.autoqa.testcases.ContactsPageTest -->
+      </class> <!-- com.digiCRMTest.autoqa.testcases.LoginPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

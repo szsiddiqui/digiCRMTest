@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[Deals Page Header: Deals]]>
+    </line>
+    <line>
+      <![CDATA[User Name Displayednaren gundimeda]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="114263" started-at="2020-01-11T00:28:25Z" finished-at="2020-01-11T00:30:19Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="114263" started-at="2020-01-11T00:28:25Z" finished-at="2020-01-11T00:30:19Z">
+      <class name="com.digiCRMTest.autoqa.testcases.UserLandingPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.digiCRMTest.autoqa.testcases.UserLandingPageTest@e25b2fe]" name="setUp" is-config="true" duration-ms="29099" started-at="2020-01-11T00:28:25Z" finished-at="2020-01-11T00:28:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="userLandingPageTitleTest()[pri:0, instance:com.digiCRMTest.autoqa.testcases.UserLandingPageTest@e25b2fe]" name="userLandingPageTitleTest" duration-ms="31" started-at="2020-01-11T00:28:54Z" finished-at="2020-01-11T00:28:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLandingPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.digiCRMTest.autoqa.testcases.UserLandingPageTest@e25b2fe]" name="tearDown" is-config="true" duration-ms="1378" started-at="2020-01-11T00:28:54Z" finished-at="2020-01-11T00:28:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.digiCRMTest.autoqa.testcases.UserLandingPageTest@e25b2fe]" name="setUp" is-config="true" duration-ms="22208" started-at="2020-01-11T00:28:55Z" finished-at="2020-01-11T00:29:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ContactsLinkTest()[pri:0, instance:com.digiCRMTest.autoqa.testcases.UserLandingPageTest@e25b2fe]" name="ContactsLinkTest" duration-ms="3358" started-at="2020-01-11T00:29:17Z" depends-on-methods="com.digiCRMTest.autoqa.testcases.UserLandingPageTest.userLandingPageTitleTest" finished-at="2020-01-11T00:29:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContactsLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.digiCRMTest.autoqa.testcases.UserLandingPageTest@e25b2fe]" name="tearDown" is-config="true" duration-ms="1421" started-at="2020-01-11T00:29:21Z" finished-at="2020-01-11T00:29:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.digiCRMTest.autoqa.testcases.UserLandingPageTest@e25b2fe]" name="setUp" is-config="true" duration-ms="23381" started-at="2020-01-11T00:29:22Z" finished-at="2020-01-11T00:29:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="dealLinkTest()[pri:0, instance:com.digiCRMTest.autoqa.testcases.UserLandingPageTest@e25b2fe]" name="dealLinkTest" duration-ms="3127" started-at="2020-01-11T00:29:45Z" depends-on-methods="com.digiCRMTest.autoqa.testcases.UserLandingPageTest.userLandingPageTitleTest" finished-at="2020-01-11T00:29:49Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Deals Page Header: Deals]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dealLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.digiCRMTest.autoqa.testcases.UserLandingPageTest@e25b2fe]" name="tearDown" is-config="true" duration-ms="1489" started-at="2020-01-11T00:29:49Z" finished-at="2020-01-11T00:29:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.digiCRMTest.autoqa.testcases.UserLandingPageTest@e25b2fe]" name="setUp" is-config="true" duration-ms="24655" started-at="2020-01-11T00:29:50Z" finished-at="2020-01-11T00:30:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="userNameTest()[pri:0, instance:com.digiCRMTest.autoqa.testcases.UserLandingPageTest@e25b2fe]" name="userNameTest" duration-ms="2937" started-at="2020-01-11T00:30:15Z" depends-on-methods="com.digiCRMTest.autoqa.testcases.UserLandingPageTest.userLandingPageTitleTest" finished-at="2020-01-11T00:30:18Z">
+          <reporter-output>
+            <line>
+              <![CDATA[User Name Displayednaren gundimeda]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- userNameTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.digiCRMTest.autoqa.testcases.UserLandingPageTest@e25b2fe]" name="tearDown" is-config="true" duration-ms="1074" started-at="2020-01-11T00:30:18Z" finished-at="2020-01-11T00:30:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.digiCRMTest.autoqa.testcases.UserLandingPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
